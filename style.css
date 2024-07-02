@@ -45,10 +45,10 @@ main {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 600px 1fr;
+    display: flex;
     align-items: center;
     column-gap: 10rem;
+    margin-inline: 30px;
 
 }
 
